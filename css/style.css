@@ -1,0 +1,87 @@
+body {
+    height: 100vh;
+    background: url(../img/oranges.jpg) no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+
+.tableSurround {
+    max-height: 80vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.surround {
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.myTable {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.myTable > thead {
+    background-color: #ff9f1c;
+    font-family: "Sansita Swashed", cursive;
+    font-size: 1.3em;
+}
+
+.myTable > thead > tr > th {
+    padding: 14px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.myTable > tbody {
+    color: black;
+    font-family: "Chilanka", cursive;
+}
+
+.myTable > tbody > tr {
+    background-color: #cbf3f0;
+}
+
+.myTable > tbody > tr > td {
+    padding: 8px;
+    border-bottom: 1px solid rgba(46, 196, 182, 0.5);
+}
+
+.myBtn-primary {
+    background-color: #2ec4b6;
+    color: #ffffff;
+    transition: all 200ms;
+}
+.myBtn-primary:hover {
+    background-color: #cbf3f0;
+    color: #ffbf69;
+}
+
+.myBtn-danger {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffbf69;
+    border-color: #ffbf69;
+    color: white;
+    transition: background-color 200ms, border-color 200ms;
+}
+
+.myBtn-danger:hover {
+    background-color: #ff9f1c;
+    border-color: #ff9f1c;
+}
+
+.myBg-success {
+    background-color: #2ec4b6 !important;
+}
+
+.myBg-success > td {
+    border-bottom: 1px solid rgba(203, 243, 240, 0.5) !important;
+    padding: 2px !important;
+}
+
+.editInput {
+    max-width: 200px;
+    text-align: center;
+    margin: auto;
+}
